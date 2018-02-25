@@ -1,8 +1,8 @@
 {
-    "title": "Latex",
+    "title": "Latex and programming with German keyboard",
     "rules": [
         {
-            "description": "CMD minus to backslash",
+            "description": "alt ,.-öäü+ to ()\\[]{}",
             "manipulators": [
             	{
                     "type": "basic",
