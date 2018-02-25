@@ -1,0 +1,28 @@
+{
+    "title": "Latex",
+    "rules": [
+        {
+            "description": "CMD minus to backslash",
+            "manipulators": [
+            	{
+                    "type": "basic",
+		            "from": {
+                        "key_code": "slash",
+                        "modifiers": {
+                            "mandatory": ["right_option"]
+                        }
+                    },
+		            "to": [
+		              {
+		                "key_code": "7",
+		                "modifiers": [
+		                  "shift",
+		                  "left_option"
+		                ]
+		              }
+		            ]
+                }
+            ]
+        }
+    ]
+}
